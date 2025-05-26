@@ -15,19 +15,19 @@ int main()
         torre++; // Incrementando um movimento até a informação ser falsa
     }
 
-    int bispo = 1;
+    int bispo = 1; //Definindo o valor da variável Bispo
 
     printf("O movimento do Bispo é:\n");
     do
     {
-        printf("Cima, Direita\n");
-        bispo++;
+        printf("Cima, Direita\n"); //Simbolizando o movimento na diagonal
+        bispo++; //Incrementando um movimento até a informação ser falsa
     } while (bispo <= 5);
 
-    int rainha = 1;
+    int rainha = 1; //Definindo o valor da variável Rainha
 
     printf("O movimento da Rainha é:\n");
-    for (rainha = 1; rainha <= 8; rainha++)
+    for (rainha = 1; rainha <= 8; rainha++) //Definindo até quando a informação vai ser verdadeira
     {
         printf("Esquerda\n");
     }
