@@ -23,7 +23,12 @@ int main()
         printf("Cima, Direita\n");
         bispo++;
     } while (bispo <= 5);
-    
 
+    int rainha = 1;
 
+    printf("O movimento da Rainha é:\n");
+    for (rainha = 1; rainha <= 8; rainha++)
+    {
+        printf("Esquerda\n");
+    }
 }
