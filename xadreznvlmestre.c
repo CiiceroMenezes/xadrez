@@ -52,13 +52,22 @@ int main()
     printf("O Movimento do Bispo é:\n");
     for (bispoVertical = 1; bispoVertical <= 5; bispoVertical++)
     {
-        for (bispoHorizontal = 1; bispoHorizontal <= 5; bispoHorizontal++);
+        for (bispoHorizontal = 1; bispoHorizontal <= 5; bispoHorizontal++)
+            ;
         {
             imprimirMovimentoBispoHorizontal();
         }
         imprimirMovimentoBispoVertical();
         printf("\n");
     }
+
+   
+
+   
+    
+
+    
+    
 
     return 0;
 }
