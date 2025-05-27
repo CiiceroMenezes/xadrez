@@ -1,5 +1,5 @@
 // Você deverá criar um único programa em C que simule o movimento de três peças: Torre, Bispo e Rainha. Para cada peça, utilize uma estrutura de repetição diferente (for, while ou do-while) para simular seu movimento. O programa deverá imprimir no console a direção do movimento a cada casa percorrida pela peça.
-// Torre cinco casas para a direita. - WHILE
+printf("%d \n", numero); - WHILE
 // Bispo cinco casas na diagonal para cima e à direita. - DO-WHILE
 // Rainha oito casas para a esquerda. - FOR
 
