@@ -6,7 +6,21 @@
 #include <stdio.h>
 int main()
 {
-    
+    int cavaloVertical = 1;
+    int cavaloHorizontal = 1;
+
+    printf("O movimento do Cavalo é:\n");
+    for (cavaloHorizontal = 1; cavaloHorizontal < 3; cavaloHorizontal++) // Definindo a direção
+    {
+        do
+        {
+            printf("Baixo\n"); // Loop Aninhado para definir a função que se repete 2 vezes 
+            printf("\n");
+            cavaloVertical++;
+        } while (cavaloVertical < 2);
+    }
+    printf("Esquerda\n");
+    printf("\n");
 
     return 0;
 }
